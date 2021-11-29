@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+}
+    .header .header__title {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+.board {
+    display: flex;
+    justify-content: center;
+}
+    .board__container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 5px;
+    }
+
+    .board .board__row {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+
+    .board .board__cell {
+        height: 10rem;
+        width: 10rem;
+    }
